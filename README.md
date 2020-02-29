@@ -5,7 +5,7 @@
 
 SET FLASK_APP=start.py (Для Win)
 
-requirements.txt - текущие версии пакетов, получается с помощью команды pip freeze > requerements.txt
+requirements.txt - текущие версии пакетов, получается с помощью команды pip freeze > requirements.txt
 
 static - стили
 
