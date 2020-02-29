@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PhoneHandlerBook</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+<h1> Телефонная книга </h1>
+
+<div class="my_boks">
+  <div class="my_boks1"></div>
+  <div class="my_boks2">
+      <form method="post" action="/">
+         <input type="text" name="search-value" value="Поисковый запрос" onfocus="this.value=''">
+         <input type="submit", name="submit-search", value="Искать">
+      </form>
+  </div>
+</div>
+<div class="h-count">
+    <div class="count">
+    {% if count %}
+    {{ count }}
+    {% endif %}
+    </div>
+    <div class="count">
+    {% if result_count %}
+    {{ result_count }}
+    {% endif %}
+    </div>
+</div>
+
+<div class="areas">
+    <div class="area1">
+        <textarea cols="24" rows="4" name="area" readonly="readonly">
+        {% if data %}
+        {{ data }}
+        {% endif %}
+        </textarea>
+    </div>
+    <div class="area2">
+        <textarea class="search" cols="24" rows="4" name="area" readonly="readonly">
+        {% if result %}
+        {{ result }}
+        {% endif %}
+        </textarea>
+    </div>
+</div>
+<form method="post" action="/">
+  <p class="zagolovok"><b>Введите строку:</b></p>
+  <p>
+  <input type="text" name="last_name" value="Имя" onfocus="this.value=''" >
+  <input type="text" name="first_name" value="Фамилия" onfocus="this.value=''">
+  <input type="text" name="middle_name" value="Отчество" onfocus="this.value=''">
+  <input type="text" name="phone" value="123456789101112" onfocus="this.value=''">
+ </p>
+  <p>
+    <input type="submit", name="submit", value="Добавить">
+  </p>
+ </form>
+
+<form method="post" action="/">
+    <p class="zagolovok"><b>Удаление строк:</b></p>
+    <input type="text" name="del" value="Номер строки" onfocus="this.value=''">
+    <p>
+    <input type="submit" name="submit-del" value="Удалить">
+    </p>
+</form>
+</body>
+</html>
