@@ -1,11 +1,21 @@
 # PhoneBook
 Телефонная книга в Web на Flask (Python) с SQLite базой данных
 
-Для запуска: создать виртуальное окружение, установить в нём пакет Flask и задать параметр запуска 
+Для установки: создать виртуальное окружение(здесь virtualenv), установить в нём пакет Flask и задать параметр запуска 
 
 SET FLASK_APP=start.py (Для Win)
 
-requirements.txt - текущие версии пакетов, получается с помощью команды pip freeze > requirements.txt
+Скопировать в созданную директорию файл start.py, datebase.db, директории: static, templates
+
+Для запуска:
+
+flask run
+
+Файлы:
+
+pyvenv.cfg - конфигурация виртуального окружения
+
+requirements.txt - текущие версии пакетов, получаем с помощью команды pip freeze > requirements.txt
 
 static - стили
 
