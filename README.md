@@ -6,7 +6,7 @@
 - установить в нём пакет Flask
 - задать параметр запуска 
   
-  SET FLASK_APP=start.py (Для Win)
+  - SET FLASK_APP=start.py (Для Win)
 
 - Скопировать в созданную директорию окружения файл start.py, datebase.db, директории: static, templates
 
