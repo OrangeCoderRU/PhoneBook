@@ -5,7 +5,7 @@
 
 SET FLASK_APP=start.py (Для Win)
 
-Скопировать в созданную директорию файл start.py, datebase.db, директории: static, templates
+Скопировать в созданную директорию окружения файл start.py, datebase.db, директории: static, templates
 
 Для запуска:
 
