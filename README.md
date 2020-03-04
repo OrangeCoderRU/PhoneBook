@@ -1,5 +1,5 @@
 # PhoneBook
-Телефонная книга в Web на Flask (Python) с SQLite базой данных
+Телефонная книга в Web на Flask (Python) с SQLite базой данных:
 ![alt text](screenshots/screenshot_1.png)
 Для установки: 
 - создать виртуальное окружение(здесь virtualenv)
