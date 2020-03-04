@@ -1,7 +1,8 @@
 # PhoneBook
-Телефонная книга в Web на Flask (Python) с SQLite базой данных:
+## Телефонная книга в Web на Flask (Python) с SQLite базой данных:
 ![alt text](screenshots/screenshot_1.png)
-Для установки: 
+
+**Для установки: 
 - создать виртуальное окружение(здесь virtualenv)
 - установить в нём пакет Flask
 - Скопировать в созданную директорию окружения файлы: start.py, datebase.db; директории: static, templates
@@ -9,11 +10,11 @@
   
   - SET FLASK_APP=start.py (Для Win)
 
-Для запуска:
+**Для запуска:
 
 - flask run
 
-Файлы:
+**Файлы:
 
 - pyvenv.cfg - конфигурация виртуального окружения
 
